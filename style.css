@@ -1,27 +1,180 @@
+#headshot img {
+    width: 100%;
+    height: auto;
+    border-radius: 100%;
+    max-width: 180px;
+}
+
+.yellow-clear {
+    background-color: #cf8a05;
+    height: 2px;
+    clear: both;
+    border: 0px;
+    width: 100%;
+}
+
 .clear {
-	clear: both;
+    clear: both;
+    background-color: #dedede;
+    height: 1px;
+    border: 0px;
+    width: 95%;
+    margin: auto;
 }
 
 #headshot {
-	width: 12.5%;
-	float: left;
-	margin-right: 30px;
+    width: 12.5%;
+    float: left;
+    margin-right: 30px;
 }
 
 #name {
-	float: left;
+    float: left;
+    line-height: 0.4;
+    font-size: 16px;
+    font-family: rock;
+}
+
+#name h1 {
+    font-size: 30px;
+    font-weight: 800;
 }
 
 #contactDetails {
-	float: right;
+    float: right;
+}
+
+h2 {
+    font-family: Rokkitt;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .sectionTitle {
-	float: left;
-	width: 25%;
+    float: left;
+    width: 25%;
+    color: #cf8a05;
+    font-style: italic;
+    font-size: medium;
+    font-family: Rokkitt;
+    margin-left: 14px;
 }
 
 .sectionContent {
-	float: right;
-	width: 72.5%;
+    float: right;
+    width: 72.5%;
+    font-size: 14px;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-variant-ligatures: inherit;
+    line-height: 1;
 }
+
+body {
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.keySkills {
+    list-style-type: none;
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+    list-style-position: outside;
+    columns: 100px 3;
+    padding-left: 0px;
+}
+
+#cv {
+    width: 650px;
+    margin: auto;
+}
+
+a {
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+#contactDetails li {
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    border-spacing: 10px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+.subDetails {
+    font-style: italic;
+    margin-top: -15px;
+    font-size: 13px;
+}
+
+
+/*
+
+
+.clear {
+    clear: both;
+    border-color: #dedede;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.yellow-clear {
+    clear: both;
+    border-color: #cf8a05;
+    border-width: 11px;
+    border-style: solid;
+}
+
+#headshot {
+    width: 12.5%;
+    float: left;
+    margin-right: 30px;
+}
+
+#headshot img {
+    width: 100%;
+    height: auto;
+    border-radius: 100px;
+    max-width: 80px;
+}
+
+#name {
+    float: left;
+    line-height: 0.2;
+}
+
+#contactDetails {
+    float: right;
+}
+
+.sectionTitle {
+    float: left;
+    width: 25%;
+    color: #cf8a05;
+    font-style: italic;
+    font-size: medium;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+.sectionContent {
+    float: right;
+    width: 72.5%;
+    font-family: Rokkitt, Arial, Helvetica, sans-serif;
+}
+
+.subDetails {
+    font-style: italic;
+}
+*/
