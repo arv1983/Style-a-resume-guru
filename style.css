@@ -5,12 +5,19 @@
     max-width: 180px;
 }
 
-.yellow-clear {
+
+/*.yellow-clear {
     background-color: #cf8a05;
     height: 2px;
     clear: both;
     border: 0px;
     width: 100%;
+}*/
+
+.yellow-clear {
+    width: 100%;
+    border-bottom: 2px #cf8a05 solid;
+    clear: both;
 }
 
 .clear {
